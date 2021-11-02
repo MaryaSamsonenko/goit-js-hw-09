@@ -7,12 +7,14 @@
   background: rgb(227, 68, 248);
   background: linear-gradient(0deg, rgb(124, 21, 145) 0%, rgb(250, 187, 250) 100%);
   border: none;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-color:hover {
   color: rgb(245, 244, 245);
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-color:disabled {
@@ -32,11 +34,13 @@
   background: rgb(96, 9, 240);
   background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
   border: none;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-timer:hover {
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-timer:disabled {
