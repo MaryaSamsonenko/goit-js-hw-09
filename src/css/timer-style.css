@@ -1,14 +1,26 @@
+.container {
+  padding-left: 20px;
+}
 .timer {
   display: flex;
 }
 .field {
   display: inline-block;
-  margin-right: 16px;
+  text-align: center;
 }
 .value {
   display: block;
   font-size: 48px;
+  color: darkgray;
+}
+
+.field:not(:last-child) {
+  margin-right: 16px;
+}
+.deadline-time {
+  color: rgb(95, 92, 92);
+  margin-right: 16px;
 }
 .label {
-  text-align: center;
+  font-size: 14px;
 }
