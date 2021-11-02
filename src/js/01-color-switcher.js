@@ -14,7 +14,7 @@ const timerChangeColor = {
 
   start() {
     btnStartEl.disabled = true;
-
+    btnStopEl.disabled = false;
     this.intervalId = setInterval(() => {
       bodyEl.style.backgroundColor = getRandomRGBColor();
     }, 1000);
@@ -23,6 +23,7 @@ const timerChangeColor = {
     clearInterval(this.intervalId);
 
     btnStartEl.disabled = false;
+    btnStopEl.disabled = true;
   },
 };
 
