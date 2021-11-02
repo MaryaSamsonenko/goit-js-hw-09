@@ -1,0 +1,48 @@
+.button-color {
+  cursor: pointer;
+  display: inline-block;
+  padding: 16px 24px;
+  border-radius: 4px;
+  color: rgb(29, 48, 48);
+  background: rgb(227, 68, 248);
+  background: linear-gradient(0deg, rgb(124, 21, 145) 0%, rgb(250, 187, 250) 100%);
+  border: none;
+}
+
+.button-color:hover {
+  color: rgb(245, 244, 245);
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.button-color:disabled {
+  cursor: default;
+  color: rgb(118, 134, 134);
+  background: rgb(242, 181, 250);
+  background: linear-gradient(0deg, rgb(239, 194, 247) 0%, rgb(250, 145, 250) 100%);
+  box-shadow: none;
+}
+
+.button-timer {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: white;
+  background: rgb(96, 9, 240);
+  background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
+  border: none;
+}
+
+.button-timer:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.button-timer:disabled {
+  cursor: default;
+  color: rgb(114, 105, 105);
+  background: rgb(173, 167, 182);
+  background: linear-gradient(0deg, rgb(184, 199, 247) 0%, rgb(156, 153, 196) 100%);
+  box-shadow: none;
+}
