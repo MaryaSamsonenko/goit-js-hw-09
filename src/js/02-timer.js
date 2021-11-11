@@ -72,4 +72,4 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
-const date = new Date();
+// const date = new Date();
